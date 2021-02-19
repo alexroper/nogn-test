@@ -6,5 +6,13 @@
 
 module.exports = {
   siteName: 'Nogn Test',
-  plugins: []
+  plugins: [
+    {
+      use: '@nogn/gridsome-source-craft',
+      options: {
+        url: process.env.CRAFT_API_URL,
+        livePreview: process.env.CRAFT_LIVE_PREVIEW || false, // Use false in production
+      },
+    },
+  ],
 }
