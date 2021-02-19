@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Nogn Test'
+primary: true
+siteGroup: fc5f04e1-8014-4db6-bb2a-ab755a764a02
+sortOrder: 1

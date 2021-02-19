@@ -1,0 +1,17 @@
+dateModified: 1613726164
+email:
+  fromEmail: alex.roper@gmail.com
+  fromName: 'Nogn Test'
+  transportType: craft\mail\transportadapters\Sendmail
+system:
+  edition: solo
+  live: true
+  name: 'Nogn Test'
+  schemaVersion: 3.6.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
