@@ -1,10 +1,10 @@
-dateModified: 1613726164
+dateModified: 1613727595
 email:
   fromEmail: alex.roper@gmail.com
   fromName: 'Nogn Test'
   transportType: craft\mail\transportadapters\Sendmail
 system:
-  edition: solo
+  edition: pro
   live: true
   name: 'Nogn Test'
   schemaVersion: 3.6.4

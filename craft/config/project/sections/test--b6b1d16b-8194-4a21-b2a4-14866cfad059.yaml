@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: test
+name: Test
+propagationMethod: all
+siteSettings:
+  b6d3c5eb-8232-4b9b-a44a-198c6d49d013:
+    enabledByDefault: true
+    hasUrls: true
+    template: test
+    uriFormat: test
+type: single
