@@ -1,6 +1,7 @@
 {
   "require": {
     "craftcms/cms": "^3.6.4",
+    "nogn/craft-gridsome": "0.1.3",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {

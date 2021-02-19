@@ -1,8 +1,14 @@
-dateModified: 1613727675
+dateModified: 1613727935
 email:
   fromEmail: alex.roper@gmail.com
   fromName: 'Nogn Test'
   transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  craft-gridsome:
+    edition: standard
+    enabled: true
+    licenseKey: GLYOVLRLLCZE75D3Q3G1KLID
+    schemaVersion: 0.1.0
 system:
   edition: pro
   live: true
