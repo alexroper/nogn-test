@@ -3,7 +3,14 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 
-export default function (Vue, { router, head, isClient }) {
+import Vuex from 'vuex'
+
+export default function (Vue, { router, head, isClient, appOptions }) {
+
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+
+  // The lines below break Nogn :(
+  Vue.use(Vuex)
+  appOptions.store = new Vuex.Store()
 }
