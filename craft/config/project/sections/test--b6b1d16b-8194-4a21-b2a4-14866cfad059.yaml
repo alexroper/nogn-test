@@ -1,6 +1,18 @@
 enableVersioning: true
 handle: test
 name: Test
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Craft Preview'
+      -
+        - urlFormat
+        - '{slug}'
+      -
+        - refresh
+        - ''
 propagationMethod: all
 siteSettings:
   b6d3c5eb-8232-4b9b-a44a-198c6d49d013:

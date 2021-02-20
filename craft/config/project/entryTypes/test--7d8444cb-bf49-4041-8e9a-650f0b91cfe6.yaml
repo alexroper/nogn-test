@@ -29,7 +29,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 handle: test
-hasTitleField: false
+hasTitleField: true
 name: Test
 section: b6b1d16b-8194-4a21-b2a4-14866cfad059
 sortOrder: 1
